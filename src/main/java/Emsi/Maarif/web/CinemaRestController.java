@@ -49,7 +49,6 @@ public class CinemaRestController
 		Path path=Paths.get(file.toURI());
 		System.out.print("before");
 		return Files.readAllBytes(path);
-		
 	}
 	@PostMapping("/payerTickets")
 	@Transactional
